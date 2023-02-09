@@ -17,4 +17,77 @@ header {
   height: 196px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.butheader {
+  height: 58px;
+  width: 175px;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+  background-color: #e8eff2;
+  border: none;
+}
+h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #162542;
+}
+h2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7b8bad;
+  width: 445px;
+  height: 78px;
+}
+h3 {
+  display: inline-block;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7b8bad;
+  margin-top: 15px;
+}
+.butsect1 {
+  height: 58px;
+  width: 175px;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+  background-color: #f16718;
+  border: none;
+}
+.divsect1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.div1 {
+  display: flex;
+  gap: 40px;
 }
