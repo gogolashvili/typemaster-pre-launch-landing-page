@@ -34,6 +34,11 @@ header {
   background-color: #e8eff2;
   border: none;
 }
+.butheader:hover {
+  cursor: pointer;
+  background-color: #162542;
+  color: aliceblue;
+}
 h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-style: normal;
@@ -77,6 +82,10 @@ h3 {
   color: #162542;
   background-color: #f16718;
   border: none;
+}
+.butsect1:hover {
+  cursor: pointer;
+  background-color: #ff9b62;
 }
 .divsect1 {
   display: flex;
