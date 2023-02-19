@@ -2,6 +2,16 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
+}
+.foni1 {
+  top: 920px;
+  position: absolute;
+}
+.foni2 {
+  top: 165px;
+  left: 1305px;
+  position: absolute;
 }
 .secondcontainer {
   max-width: 1110px;
