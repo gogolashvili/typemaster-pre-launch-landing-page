@@ -126,3 +126,20 @@ h5 {
 .imgsect22 {
   margin-left: -60px;
 }
+h6 {
+  width: 150px;
+  height: 56px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #162542;
+  text-align: start;
+}
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 170px;
+}
