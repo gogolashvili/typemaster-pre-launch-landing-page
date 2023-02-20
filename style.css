@@ -2,17 +2,19 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  position: relative;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
 }
 .foni1 {
-  top: 920px;
-  position: absolute;
+  margin-top: 930px;
+  width: 130px;
+  height: 236px;
 }
 .foni2 {
-  top: 165px;
-  left: 1305px;
-  position: absolute;
+  margin-top: 160px;
+  width: 130px;
+  height: 240px;
 }
 .secondcontainer {
   max-width: 1110px;
