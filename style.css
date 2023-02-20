@@ -31,6 +31,7 @@ header {
 .section1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .butheader {
   height: 58px;
@@ -280,5 +281,59 @@ footer {
   }
   .div1 {
     width: 339px;
+  }
+}
+@media (max-width: 376px) {
+  .secondcontainer {
+    width: 375px;
+  }
+  .imgsect1 {
+    width: 372px;
+    height: 331px;
+  }
+  .imgsect22 {
+    width: 220px;
+    height: 193px;
+  }
+  .imgsect21 {
+    width: 110px;
+    height: 193px;
+  }
+  .section2 {
+    justify-content: space-around;
+  }
+  header {
+    gap: 40px;
+    justify-content: center;
+  }
+  .divsect2 {
+    flex-direction: column;
+  }
+  h4 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    width: 255px;
+    height: 108px;
+  }
+  h5 {
+    width: 327px;
+    height: 104px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .imgsect1 {
+    width: 372px;
+    height: 331px;
+  }
+  h1 {
+    width: 327px;
+    height: 96px;
+  }
+  .section1 {
+    flex-wrap: wrap;
   }
 }
