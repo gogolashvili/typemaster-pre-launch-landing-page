@@ -222,9 +222,7 @@ footer {
     align-content: center;
     margin-top: 70px;
   }
-  .secondcontainer {
-    width: 768px;
-  }
+
   h1 {
     width: 339px;
     height: 96px;
@@ -246,12 +244,10 @@ footer {
     height: 400px;
   }
   header {
-    width: 768px;
     justify-content: space-around;
     gap: 380px;
   }
   .section1 {
-    width: 768px;
     justify-content: space-around;
   }
   .divsect1 {
@@ -290,27 +286,29 @@ footer {
     width: 375px;
   }
   .imgsect1 {
-    width: 372px;
+    width: 300px;
     height: 331px;
+    margin-top: 20px;
   }
   .imgsect22 {
-    width: 220px;
+    width: 200px;
     height: 193px;
   }
   .imgsect21 {
-    width: 110px;
+    width: 100px;
     height: 193px;
   }
   .section2 {
     justify-content: space-around;
   }
   header {
-    gap: 40px;
+    gap: 100px;
     justify-content: center;
   }
   .divsect2 {
     flex-direction: column;
   }
+
   h4 {
     font-weight: 900;
     font-size: 32px;
@@ -332,10 +330,15 @@ footer {
     height: 331px;
   }
   h1 {
-    width: 327px;
+    width: 80%;
     height: 96px;
   }
-  .section1 {
-    flex-wrap: wrap;
+  h2 {
+    width: 100%;
+  }
+  .divsect3 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 }
